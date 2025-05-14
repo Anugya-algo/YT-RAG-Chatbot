@@ -28,27 +28,25 @@ YT-Chat-Saarthi is an AI-powered Chrome Extension backed by a Retrieval-Augmente
 
 ---
 
-## 🛠️ Setup Instructions
+## 🧪 Example Use Case
 
-### 🔧 Backend Setup (Google Colab / Local)
+- 🔍 **Watching a tech tutorial but missed something?**  
+  Ask: _"What is the purpose of the function explained at 05:30?"_
 
-1. **Install dependencies:**
+- 📚 **Watching a lecture?**  
+  Ask: _"Summarize the main concept from this video."_
 
-```bash
+---
 
-pip install youtube-transcript-api langchain-community langchain-cohere langchain-together flask faiss-cpu python-dotenv
+## 🛡️ Security
 
-🧪 Example Use Case
-🔍 Watching a tech tutorial but missed something? Ask: "What is the purpose of the function explained at 05:30?"
+- Your API keys are managed through `.env` and never exposed to the frontend.
+- Make sure to rotate and regenerate any token you’ve exposed accidentally.
 
-📚 Watching a lecture? Ask: "Summarize the main concept from this video."
+---
 
-🛡️ Security
-Your API keys are managed through .env and never exposed to frontend.
+## 📢 Credits
 
-Make sure to rotate and regenerate any token you’ve exposed accidentally.
+- Developed by **Anugya Saxena**
+- Built using **LangChain**, **Cohere**, and **Together.ai**
 
-📢 Credits
-Developed by Anugya Saxena
-
-Built using LangChain, Cohere, Together.ai
